@@ -27,6 +27,7 @@ install:
 build_script:
   - cmd: yarn build
 #  - sh: yarn build
-  - sh: node .electron-vue/build.js
+- sh: echo something!
+#  - sh: node .electron-vue/build.js
 
 test: off
