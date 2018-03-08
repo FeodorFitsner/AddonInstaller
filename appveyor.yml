@@ -33,6 +33,6 @@ install:
 
 build_script:
   - cmd: yarn build
-  - sh: yarn run build
+  - sh: yarn build
 
 test: off
