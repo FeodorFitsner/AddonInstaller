@@ -23,11 +23,9 @@ install:
         }
   - git reset --hard HEAD
   - yarn
-
+  
 build_script:
   - cmd: yarn build
-#  - sh: yarn build
-  - sh: echo something!
-#  - sh: node .electron-vue/build.js
+  - sh: yarn run build
 
 test: off
